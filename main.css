@@ -1,0 +1,28 @@
+#assignment-instructions {
+    color:brown;
+    font-family: sans-serif;
+}
+
+.green-font {
+    color: rgb(12, 230, 12);
+    background-color: rgb(7, 7, 29);
+}
+
+code {
+    color: red;
+    font-family: monospace;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+li ~ li {
+    background-color: black;
+    color: white;
+}
+
+ol  li {
+    background-color: black;
+    color: white;
+}
