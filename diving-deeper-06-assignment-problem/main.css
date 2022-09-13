@@ -1,0 +1,25 @@
+#box-1 {
+    margin: 16px 10px 28px 21px;
+    padding: 12px 10px 8px 20px;
+    border: 4px red groove;
+    height: 300px;
+    width: 50%;
+}
+#box-2 {
+    margin: 16px 10px 28px 21px;
+    padding: 12px 10px 8px 20px;
+    border: 4px red groove;
+}
+
+body * {
+    display: inline-block;
+}
+
+div:last-of-type:hover {
+    background-color: blueviolet;
+}
+
+html,
+body {
+    height: 100%;
+}
