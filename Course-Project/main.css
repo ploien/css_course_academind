@@ -1,7 +1,9 @@
 
 
 #product-overview {
-    background: url("freedom.jpg");
+    background: linear-gradient(to top, rgba(144, 238, 144, 0.31), rgba(0, 128, 0, 0.304), rgba(6, 85, 6, 0.304), transparent), url("./images/freedom.jpg") left 10% top / cover no-repeat border-box;
+    /* background-image: linear-gradient(lightgreen, green, rgb(6, 85, 6)); */
+    /* background-image: radial-gradient(rgb(245, 231, 233, .3), pink, red, darkred); */
     width: 100%;
     height: 528px;
     padding: 10px;   
@@ -112,6 +114,7 @@
     border: 2px solid #424242;
     border-radius: 50%;
     margin: auto;
+    padding: 16px;
 }
 
 .key-feature__description {
