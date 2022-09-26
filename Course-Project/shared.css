@@ -5,7 +5,19 @@
 body {
     font-family: 'Montserrat', sans-serif;
     margin: 0;
+    overflow-x: hidden
 }
+
+.backdrop {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,.5);
+    display: none;
+}   
 
 .main-header {
     width: 100%;
@@ -26,9 +38,10 @@ body {
     color: #0e4f1f;
     text-decoration: none;
     font-weight: bold;
-    font-size: 22px;
+    font-size: 1.5rem;
     display: inline-block;
-    height: 48px;
+    height: 2rem;
+    width: auto;
 }
 
 .main-header__brand img {
@@ -38,8 +51,11 @@ body {
 .main-nav {
     display: inline-block;
     text-align: right;
-    width: calc(100% - 74px);
+    width: 60%;
     vertical-align: middle;
+    position: absolute;
+    bottom: .5rem;
+    right: 1rem;
 }
 
 .main-nav__items {
